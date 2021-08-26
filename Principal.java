@@ -22,5 +22,27 @@ public class Principal{
         e3.multiplo();
         e4.fatorial();
         e5.par_impar();
+
+        if(opcao ==1){
+            System.out.println("Resultado Exercicio 1: ");
+            e1.imprimir();
+        }
+        else if(opcao == 2){
+            System.out.println("Resultado Exercico 2: ");
+            e2.soma();
+        }
+        else if(opcao == 3){
+            System.out.println("Resultado Exercico 3: ");
+            e3.multiplo();
+        }
+       else if(opcao == 4){
+            System.out.println("Resultado Exercico 4: ");
+            e4.fatorial();
+        }
+        else if(opcao == 5){
+            System.out.println("Resultado Exercico 5: ");
+            e5.par_impar();
+        }
+         
     }
 }
